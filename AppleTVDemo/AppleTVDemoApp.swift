@@ -11,7 +11,9 @@ import SwiftUI
 struct AppleTVDemoApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            NavigationView {
+                SelectionView()
+            }
         }
     }
 }

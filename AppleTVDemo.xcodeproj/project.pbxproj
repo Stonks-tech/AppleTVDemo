@@ -7,18 +7,49 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7585676097BAAC63DDB53888 /* Pods_AppleTVDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A518E3ACB632A89F928BEFEA /* Pods_AppleTVDemo.framework */; };
 		BE491E462B17241600E5166F /* AppleTVDemoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE491E452B17241600E5166F /* AppleTVDemoApp.swift */; };
-		BE491E482B17241600E5166F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE491E472B17241600E5166F /* ContentView.swift */; };
+		BE491E482B17241600E5166F /* SelectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE491E472B17241600E5166F /* SelectionView.swift */; };
 		BE491E4A2B17241700E5166F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BE491E492B17241700E5166F /* Assets.xcassets */; };
 		BE491E4D2B17241700E5166F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BE491E4C2B17241700E5166F /* Preview Assets.xcassets */; };
+		BE5A0A4A2B1758420039A4D1 /* SelectionViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE5A0A492B1758420039A4D1 /* SelectionViewModel.swift */; };
+		BE5A0A4F2B1758800039A4D1 /* SelectionState.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE5A0A4E2B1758800039A4D1 /* SelectionState.swift */; };
+		BE5A0A542B1758BE0039A4D1 /* ShowDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE5A0A532B1758BE0039A4D1 /* ShowDataModel.swift */; };
+		BE5A0A562B1759130039A4D1 /* ShowPresentationModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE5A0A552B1759130039A4D1 /* ShowPresentationModel.swift */; };
+		BE5C3BA22B1791B7000FB7E9 /* PlayerViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE5C3BA12B1791B7000FB7E9 /* PlayerViewModel.swift */; };
+		BE5C3BA62B17B15A000FB7E9 /* PlayerState.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE5C3BA52B17B15A000FB7E9 /* PlayerState.swift */; };
+		BE5C3BAC2B17B754000FB7E9 /* apple-tv-demo.mov in Resources */ = {isa = PBXBuildFile; fileRef = BE5C3BAB2B17B754000FB7E9 /* apple-tv-demo.mov */; };
+		BE64B5B62B1786470053F9A3 /* PlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE64B5B52B1786470053F9A3 /* PlayerView.swift */; };
+		BEBAC5A52B175B5700BEC9F6 /* Container.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEBAC5A42B175B5700BEC9F6 /* Container.swift */; };
+		BEBAC5A72B175C4800BEC9F6 /* Inject.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEBAC5A62B175C4800BEC9F6 /* Inject.swift */; };
+		BEBAC5A92B175C7400BEC9F6 /* Resolver.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEBAC5A82B175C7400BEC9F6 /* Resolver.swift */; };
+		BEBAC5AC2B175CD600BEC9F6 /* ShowsRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEBAC5AB2B175CD600BEC9F6 /* ShowsRepository.swift */; };
+		BEBAC5B02B1763A100BEC9F6 /* ShowDataToPresentationMapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEBAC5AF2B1763A100BEC9F6 /* ShowDataToPresentationMapper.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6A29B2DC2882C68E8EB1C6A8 /* Pods-AppleTVDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AppleTVDemo.release.xcconfig"; path = "Target Support Files/Pods-AppleTVDemo/Pods-AppleTVDemo.release.xcconfig"; sourceTree = "<group>"; };
+		8E56AF0D9C5A29CDD7CD1179 /* Pods-AppleTVDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AppleTVDemo.debug.xcconfig"; path = "Target Support Files/Pods-AppleTVDemo/Pods-AppleTVDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		A518E3ACB632A89F928BEFEA /* Pods_AppleTVDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AppleTVDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BE491E422B17241600E5166F /* AppleTVDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AppleTVDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BE491E452B17241600E5166F /* AppleTVDemoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppleTVDemoApp.swift; sourceTree = "<group>"; };
-		BE491E472B17241600E5166F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		BE491E472B17241600E5166F /* SelectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectionView.swift; sourceTree = "<group>"; };
 		BE491E492B17241700E5166F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BE491E4C2B17241700E5166F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		BE5A0A492B1758420039A4D1 /* SelectionViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectionViewModel.swift; sourceTree = "<group>"; };
+		BE5A0A4E2B1758800039A4D1 /* SelectionState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectionState.swift; sourceTree = "<group>"; };
+		BE5A0A532B1758BE0039A4D1 /* ShowDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowDataModel.swift; sourceTree = "<group>"; };
+		BE5A0A552B1759130039A4D1 /* ShowPresentationModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowPresentationModel.swift; sourceTree = "<group>"; };
+		BE5C3BA12B1791B7000FB7E9 /* PlayerViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerViewModel.swift; sourceTree = "<group>"; };
+		BE5C3BA52B17B15A000FB7E9 /* PlayerState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerState.swift; sourceTree = "<group>"; };
+		BE5C3BA92B17B6CD000FB7E9 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		BE5C3BAB2B17B754000FB7E9 /* apple-tv-demo.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = "apple-tv-demo.mov"; sourceTree = "<group>"; };
+		BE64B5B52B1786470053F9A3 /* PlayerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerView.swift; sourceTree = "<group>"; };
+		BEBAC5A42B175B5700BEC9F6 /* Container.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Container.swift; sourceTree = "<group>"; };
+		BEBAC5A62B175C4800BEC9F6 /* Inject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Inject.swift; sourceTree = "<group>"; };
+		BEBAC5A82B175C7400BEC9F6 /* Resolver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Resolver.swift; sourceTree = "<group>"; };
+		BEBAC5AB2B175CD600BEC9F6 /* ShowsRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowsRepository.swift; sourceTree = "<group>"; };
+		BEBAC5AF2B1763A100BEC9F6 /* ShowDataToPresentationMapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowDataToPresentationMapper.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -26,17 +57,39 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7585676097BAAC63DDB53888 /* Pods_AppleTVDemo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		607AD5427BC8A179E8315853 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8E56AF0D9C5A29CDD7CD1179 /* Pods-AppleTVDemo.debug.xcconfig */,
+				6A29B2DC2882C68E8EB1C6A8 /* Pods-AppleTVDemo.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		807BFDA3BC2A980B14943BAE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A518E3ACB632A89F928BEFEA /* Pods_AppleTVDemo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		BE491E392B17241600E5166F = {
 			isa = PBXGroup;
 			children = (
+				BE5C3BAA2B17B746000FB7E9 /* demo */,
+				BE5C3BA92B17B6CD000FB7E9 /* README.md */,
 				BE491E442B17241600E5166F /* AppleTVDemo */,
 				BE491E432B17241600E5166F /* Products */,
+				607AD5427BC8A179E8315853 /* Pods */,
+				807BFDA3BC2A980B14943BAE /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -51,8 +104,11 @@
 		BE491E442B17241600E5166F /* AppleTVDemo */ = {
 			isa = PBXGroup;
 			children = (
+				BEBAC5A22B175B4200BEC9F6 /* main */,
+				BE5A0A502B1758950039A4D1 /* data */,
+				BE5A0A472B1757A70039A4D1 /* presentation */,
+				BE5A0A452B17575B0039A4D1 /* view */,
 				BE491E452B17241600E5166F /* AppleTVDemoApp.swift */,
-				BE491E472B17241600E5166F /* ContentView.swift */,
 				BE491E492B17241700E5166F /* Assets.xcassets */,
 				BE491E4B2B17241700E5166F /* Preview Content */,
 			);
@@ -67,6 +123,167 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		BE5A0A452B17575B0039A4D1 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				BE64B5B42B1786390053F9A3 /* player */,
+				BE5A0A462B1757630039A4D1 /* selection */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		BE5A0A462B1757630039A4D1 /* selection */ = {
+			isa = PBXGroup;
+			children = (
+				BE491E472B17241600E5166F /* SelectionView.swift */,
+			);
+			path = selection;
+			sourceTree = "<group>";
+		};
+		BE5A0A472B1757A70039A4D1 /* presentation */ = {
+			isa = PBXGroup;
+			children = (
+				BE5C3BA72B17B17B000FB7E9 /* shared */,
+				BE5C3B9F2B179194000FB7E9 /* player */,
+				BE5A0A482B1757B00039A4D1 /* selection */,
+			);
+			path = presentation;
+			sourceTree = "<group>";
+		};
+		BE5A0A482B1757B00039A4D1 /* selection */ = {
+			isa = PBXGroup;
+			children = (
+				BE5A0A4D2B17586D0039A4D1 /* viewmodel */,
+				BE5A0A4C2B1758690039A4D1 /* model */,
+			);
+			path = selection;
+			sourceTree = "<group>";
+		};
+		BE5A0A4C2B1758690039A4D1 /* model */ = {
+			isa = PBXGroup;
+			children = (
+				BE5A0A4E2B1758800039A4D1 /* SelectionState.swift */,
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		BE5A0A4D2B17586D0039A4D1 /* viewmodel */ = {
+			isa = PBXGroup;
+			children = (
+				BE5A0A492B1758420039A4D1 /* SelectionViewModel.swift */,
+			);
+			path = viewmodel;
+			sourceTree = "<group>";
+		};
+		BE5A0A502B1758950039A4D1 /* data */ = {
+			isa = PBXGroup;
+			children = (
+				BEBAC5AA2B175CC600BEC9F6 /* repository */,
+				BE5A0A512B17589C0039A4D1 /* model */,
+			);
+			path = data;
+			sourceTree = "<group>";
+		};
+		BE5A0A512B17589C0039A4D1 /* model */ = {
+			isa = PBXGroup;
+			children = (
+				BE5A0A532B1758BE0039A4D1 /* ShowDataModel.swift */,
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		BE5C3B9F2B179194000FB7E9 /* player */ = {
+			isa = PBXGroup;
+			children = (
+				BE5C3BA42B17B14B000FB7E9 /* model */,
+				BE5C3BA32B1791BA000FB7E9 /* viewmodel */,
+			);
+			path = player;
+			sourceTree = "<group>";
+		};
+		BE5C3BA32B1791BA000FB7E9 /* viewmodel */ = {
+			isa = PBXGroup;
+			children = (
+				BE5C3BA12B1791B7000FB7E9 /* PlayerViewModel.swift */,
+			);
+			path = viewmodel;
+			sourceTree = "<group>";
+		};
+		BE5C3BA42B17B14B000FB7E9 /* model */ = {
+			isa = PBXGroup;
+			children = (
+				BE5C3BA52B17B15A000FB7E9 /* PlayerState.swift */,
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		BE5C3BA72B17B17B000FB7E9 /* shared */ = {
+			isa = PBXGroup;
+			children = (
+				BEBAC5AE2B17639100BEC9F6 /* mapper */,
+				BE5C3BA82B17B181000FB7E9 /* model */,
+			);
+			path = shared;
+			sourceTree = "<group>";
+		};
+		BE5C3BA82B17B181000FB7E9 /* model */ = {
+			isa = PBXGroup;
+			children = (
+				BE5A0A552B1759130039A4D1 /* ShowPresentationModel.swift */,
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		BE5C3BAA2B17B746000FB7E9 /* demo */ = {
+			isa = PBXGroup;
+			children = (
+				BE5C3BAB2B17B754000FB7E9 /* apple-tv-demo.mov */,
+			);
+			path = demo;
+			sourceTree = "<group>";
+		};
+		BE64B5B42B1786390053F9A3 /* player */ = {
+			isa = PBXGroup;
+			children = (
+				BE64B5B52B1786470053F9A3 /* PlayerView.swift */,
+			);
+			path = player;
+			sourceTree = "<group>";
+		};
+		BEBAC5A22B175B4200BEC9F6 /* main */ = {
+			isa = PBXGroup;
+			children = (
+				BEBAC5A32B175B4C00BEC9F6 /* DI */,
+			);
+			path = main;
+			sourceTree = "<group>";
+		};
+		BEBAC5A32B175B4C00BEC9F6 /* DI */ = {
+			isa = PBXGroup;
+			children = (
+				BEBAC5A42B175B5700BEC9F6 /* Container.swift */,
+				BEBAC5A62B175C4800BEC9F6 /* Inject.swift */,
+				BEBAC5A82B175C7400BEC9F6 /* Resolver.swift */,
+			);
+			path = DI;
+			sourceTree = "<group>";
+		};
+		BEBAC5AA2B175CC600BEC9F6 /* repository */ = {
+			isa = PBXGroup;
+			children = (
+				BEBAC5AB2B175CD600BEC9F6 /* ShowsRepository.swift */,
+			);
+			path = repository;
+			sourceTree = "<group>";
+		};
+		BEBAC5AE2B17639100BEC9F6 /* mapper */ = {
+			isa = PBXGroup;
+			children = (
+				BEBAC5AF2B1763A100BEC9F6 /* ShowDataToPresentationMapper.swift */,
+			);
+			path = mapper;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -74,9 +291,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BE491E502B17241700E5166F /* Build configuration list for PBXNativeTarget "AppleTVDemo" */;
 			buildPhases = (
+				D777F6823904AE38854C3718 /* [CP] Check Pods Manifest.lock */,
 				BE491E3E2B17241600E5166F /* Sources */,
 				BE491E3F2B17241600E5166F /* Frameworks */,
 				BE491E402B17241600E5166F /* Resources */,
+				FE59061AA4BF746794BB7E85 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -127,18 +346,73 @@
 			files = (
 				BE491E4D2B17241700E5166F /* Preview Assets.xcassets in Resources */,
 				BE491E4A2B17241700E5166F /* Assets.xcassets in Resources */,
+				BE5C3BAC2B17B754000FB7E9 /* apple-tv-demo.mov in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		D777F6823904AE38854C3718 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AppleTVDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FE59061AA4BF746794BB7E85 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AppleTVDemo/Pods-AppleTVDemo-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AppleTVDemo/Pods-AppleTVDemo-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AppleTVDemo/Pods-AppleTVDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		BE491E3E2B17241600E5166F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BE491E482B17241600E5166F /* ContentView.swift in Sources */,
+				BEBAC5AC2B175CD600BEC9F6 /* ShowsRepository.swift in Sources */,
+				BE491E482B17241600E5166F /* SelectionView.swift in Sources */,
 				BE491E462B17241600E5166F /* AppleTVDemoApp.swift in Sources */,
+				BE64B5B62B1786470053F9A3 /* PlayerView.swift in Sources */,
+				BE5C3BA22B1791B7000FB7E9 /* PlayerViewModel.swift in Sources */,
+				BEBAC5B02B1763A100BEC9F6 /* ShowDataToPresentationMapper.swift in Sources */,
+				BE5A0A4F2B1758800039A4D1 /* SelectionState.swift in Sources */,
+				BEBAC5A92B175C7400BEC9F6 /* Resolver.swift in Sources */,
+				BE5A0A542B1758BE0039A4D1 /* ShowDataModel.swift in Sources */,
+				BEBAC5A72B175C4800BEC9F6 /* Inject.swift in Sources */,
+				BE5C3BA62B17B15A000FB7E9 /* PlayerState.swift in Sources */,
+				BEBAC5A52B175B5700BEC9F6 /* Container.swift in Sources */,
+				BE5A0A562B1759130039A4D1 /* ShowPresentationModel.swift in Sources */,
+				BE5A0A4A2B1758420039A4D1 /* SelectionViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -266,6 +540,7 @@
 		};
 		BE491E512B17241700E5166F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8E56AF0D9C5A29CDD7CD1179 /* Pods-AppleTVDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -274,6 +549,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"AppleTVDemo/Preview Content\"";
 				DEVELOPMENT_TEAM = ZSP78UQ8R6;
 				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -287,14 +563,17 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = tech.stonks.AppleTVDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "appletvos appletvsimulator iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = "1,2,3";
 			};
 			name = Debug;
 		};
 		BE491E522B17241700E5166F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6A29B2DC2882C68E8EB1C6A8 /* Pods-AppleTVDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -303,6 +582,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"AppleTVDemo/Preview Content\"";
 				DEVELOPMENT_TEAM = ZSP78UQ8R6;
 				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -316,9 +596,11 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = tech.stonks.AppleTVDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "appletvos appletvsimulator iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = "1,2,3";
 			};
 			name = Release;
 		};
